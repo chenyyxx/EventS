@@ -5,7 +5,11 @@
 }
 
 body {
-	background: #434343;
+	background:
+		url('https://stmed.net/sites/default/files/concert-wallpapers-30311-195711.jpg');
+		// no-repeat 50% 40%;
+	background-size: 100%;
+	// background: #434343;
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -21,11 +25,11 @@ ul {
  */
 .top-header {
 	align-items: center;
-	box-shadow: 0px 2px 10px #333333;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	opacity: 0.9;
 }
 
 .avatar {
@@ -42,7 +46,7 @@ ul {
 
 #logout-link {
 	padding-left: 10px;
-	color: white;
+	color: #333C4D;
 }
 
 /**
@@ -60,8 +64,9 @@ ul {
 }
 
 #welcome-msg {
-	border-right: 1px solid #FFFFFF;
+	border-right: 1px solid rgba(0,0,0,.7);
 	padding-right: 10px;
+	corlor: rgba(0,0,0,.9);
 }
 
 /**
@@ -78,25 +83,23 @@ ul {
  */
 .container-fluid>header {
 	align-items: center;
-	background:
-		url('http://eudreamvilla.com/wp-content/uploads/2017/10/romantic-dinner.jpg')
-		no-repeat 50% 40%;
 	background-size: 100%;
 	display: flex;
 	height: 250px;
 }
 
 .container-fluid>header p {
-	border-left: 1px solid #FFFFFF;
+	border-left: 1px solid #2979FF;
 	font-weight: 400;
 	font-size: 2em;
 	line-height: 1em;
-	margin-left: 220px;
+	margin-left: 250px;
 	padding-left: 5px;
+	color: rgba(0,0,0,.5);
 }
 
 .container-fluid>header span {
-	color: #FBAF41;
+	color: #2979FF;
 }
 
 /**
@@ -189,7 +192,8 @@ ul {
  * main section
  */
 .main-section {
-	background: #F3BB43;
+	background: #E3F2FD;
+	opacity:0.9;
 }
 
 /**
@@ -198,10 +202,11 @@ ul {
 #item-nav {
 	float: left;
 	width: 180px;
+	background: #2979FF;
 }
 
 .nav-icon {
-	color: #624630;
+	color: #FFFFFF;
 	padding: 20px;
 	text-align: center;
 }
@@ -221,12 +226,12 @@ ul {
 
 .main-nav-btn:hover {
 	background: rgba(255, 255, 255, 0.8);
-	color: #624630;
+	color: #212529;
 }
 
 .main-nav-btn.active {
-	background: #F2EBD9;
-	color: #624630;
+	background: #f8f9fa;
+	color: #212529;
 }
 
 .main-nav-btn i {
@@ -237,8 +242,8 @@ ul {
  * item list
  */
 #item-list {
-	background: #F2EBD9;
-	color: #624630;
+	background: #f8f9fa;
+	color: #212529;
 	list-style: none;
 	margin-left: 180px;
 	min-height: 250px;
@@ -322,10 +327,12 @@ ul {
  * footer section
  */
 footer {
-	background: #434343;
+	background: #2979FF;
 	font-size: 0.8em;
 	height: 200px;
 	position: relative;
+	opacity: 0.9;
+	// color: rgba(0,0,0,.9);
 }
 
 footer p {
@@ -340,7 +347,7 @@ footer p.title {
 footer ul {
 	align-items: center;
 	display: flex;
-	padding: 20px;
+	// padding: 20px;
 }
 
 footer ul li {

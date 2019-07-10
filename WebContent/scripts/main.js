@@ -88,6 +88,11 @@
     hideElement(logoutBtn);
     hideElement(welcomeMsg);
     hideElement(registerForm);
+    // showElement(itemNav);
+    // showElement(itemList);
+    // showElement(avatar);
+    // showElement(welcomeMsg);
+    // showElement(logoutBtn, 'inline-block');
 
     clearLoginError();
     showElement(loginForm);
