@@ -6,6 +6,7 @@
   <meta name="author" content="Your Name">
   <title>Item Recommendation Final</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -30,7 +31,23 @@
     </header>
 
     <section class="main-section">
+
       <div id="login-form">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input id="username" name="username" type="text" class="form-control" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input id="password" name="password" type="password" class="form-control" placeholder="Password">
+        </div>
+        <button id="register-form-btn" class="btn btn-primary">New User? Register</button>
+        <button id="login-btn" class="btn btn-primary">Login</button>
+        <p id="login-error"></p>
+      </div>
+
+
+      <!-- <div id="login-form">
         <label for="username">Username:</label>
         <input id="username" name="username" type="text">
         <label for="password">Password:</label>
@@ -38,9 +55,29 @@
         <button id="register-form-btn">New User? Register</button>
         <button id="login-btn">Login</button>
         <p id="login-error"></p>
-      </div>
+      </div> -->
       
+
       <div id="register-form">
+        <div class="form-group">
+          <label for="username">Username: *</label>
+          <input id="register-username" name="username" type="text" class="form-control" placeholder="Username">
+          <label for="password">Password: *</label>
+          <input id="register-password" name="password" type="password" class="form-control" placeholder="Password">
+          <label for="first-name">First Name: *</label>
+          <input id="register-first-name" name="first-name" type="text" class="form-control" placeholder="First Name">
+          <label for="last-name">Last Name: *</label>
+          <input id="register-last-name" name="last-name" type="text" class="form-control" placeholder="Last Name">
+        </div>
+        <!-- <button id="register-form-btn" class="btn btn-primary">New User? Register</button>
+        <button id="login-btn" class="btn btn-primary">Login</button> -->
+        <button id="login-form-btn" class="btn btn-primary">Back to Login</button>
+        <button id="register-btn" class="btn btn-primary">Register</button>
+        <p id="register-result"></p>
+      </div>
+
+
+      <!-- <div id="register-form">
         <label for="username">Username: *</label>
         <input id="register-username" name="username" type="text">
         <label for="password">Password: *</label>
@@ -52,7 +89,7 @@
         <button id="login-form-btn">Back to Login</button>
         <button id="register-btn">Register</button>
         <p id="register-result"></p>
-      </div>
+      </div> -->
 
       <aside id="item-nav">
         <div class="nav-icon">
