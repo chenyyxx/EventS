@@ -12,17 +12,34 @@
 </head>
 <body>
   <header class="top-header">
-    <nav class="top-nav">
-      <a href="#">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">EventS</a>
+<!--     <a href="#">Home</a>
       <a href="#">Contact</a>
-      <a href="#">About</a>
+      <a href="#">About</a> -->  
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+      <span id="welcome-msg"></span>
+      <a id="logout-link" href="logout">Logout</a>
+      <i id="avatar" class="avatar fa fa-user fa-2x"></i>
     </nav>
-    <span id="welcome-msg"></span>
-    <a id="logout-link" href="logout">Logout</a>
-    <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+    
   </header>
   
-  <div class="container">
+  <div class="container-fluid">
     <header>
       <p>
         <span>Item</span>
