@@ -24,6 +24,7 @@ public class Item {
 		this.address = builder.address;
 		this.categories = builder.categories;
 		this.imageUrl = builder.imageUrl;
+		this.url = builder.url;
 		this.distance = builder.distance;
 	}
 	

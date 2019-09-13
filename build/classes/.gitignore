@@ -1,5 +1,3 @@
 /db/
-/entity/
 /external/
-/recommendation/
-/rpc/
+/entity/

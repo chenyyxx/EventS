@@ -51,7 +51,7 @@ public class TicketMasterAPI {
 			System.out.println("Response code:" + responseCode);
 			
 			if (responseCode != 200) {
-				return new ArrayList(); // handle the case where response code != 200
+				return new ArrayList<>(); // handle the case where response code != 200
 			}
 			
 			// Read a set of string from strings from memory for CPU process
