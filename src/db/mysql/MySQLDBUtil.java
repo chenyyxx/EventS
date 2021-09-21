@@ -7,7 +7,7 @@ package db.mysql;
 
 public class MySQLDBUtil {
 	// This class is create to generate 
-	private static final String HOSTNAME = "localhost";
+	private static final String HOSTNAME = "127.0.0.1";
 	private static final String PORT_NUM = "3306"; // change it to your mysql  port (by default shoud be 3306)
 	public static final String DB_NAME = "events";
 	private static final String USERNAME = "root";
